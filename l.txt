@@ -1,3 +1,145 @@
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjktXHU4Mzc3XHU1MTcwXzA3MDMxMzE1Ny13b3JrZXIiLA0KICAiYWRkIjogIndvcmtlci1xdWlldC1tb3JuaW5nLTAxZjUubWFsaXRvYjM1MS53b3JLZXJTLkRFViIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICIxOWM4MGNlOS0wOTM1LTQxYjktYjA3Ny0yNzc2MjEzMTZhODciLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIndvcmtlci1xdWlldC1tb3JuaW5nLTAxZjUubWFsaXRvYjM1MS5XT3JrZXJzLmRFdiIsDQogICJwYXRoIjogIi9oaWRkMi5wYXJ0aGlhbmVtcGlyZS5vcmc6NDQzL2xpVXhVR0pUR29QamQwN3VpNzNMWmd3eDhzIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndvcmtlci1xdWlldC1tb3JuaW5nLTAxZjUubWFsaXRvYjM1MS5XT3JrZXJzLmRFdiIsDQogICJhbHBuIjogImgyLGh0dHAvMS4xIiwNCiAgImZwIjogInNhZmFyaSINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjMtXHU3RjhFXHU1NkZEXzA3MDMxMzgzNS13b3JrZXIiLA0KICAiYWRkIjogIndvcmtlci1xdWlldC1tb3JuaW5nLTAxZjUubWFsaXRvYjM1MS53b3JLZXJTLkRFViIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJlZGJiMTA1OS0xNjMzLTQyNzEtYjY2ZS1lZDRmYmE0N2ExYmYiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIndvcmtlci1xdWlldC1tb3JuaW5nLTAxZjUubWFsaXRvYjM1MS5XT1JrRXJTLkRFViIsDQogICJwYXRoIjogIi9saW5kZTA2LmluZGlhdmlkZW8uc2JzOjQ0My9saW5rd3MiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAid29ya2VyLXF1aWV0LW1vcm5pbmctMDFmNS5tYWxpdG9iMzUxLldPUmtFclMuREVWIiwNCiAgImFscG4iOiAiaHR0cC8xLjEiLA0KICAiZnAiOiAiY2hyb21lIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIjI1LVx1RDgzQ1x1REZDMVJFTEFZLTEwNC4yMS42OS40NC0wMDk5LXdvcmtlciIsDQogICJhZGQiOiAid29ya2VyLXF1aWV0LW1vcm5pbmctMDFmNS5tYWxpdG9iMzUxLndPcktFUlMuRGVWIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjk1MGRiNmFhLTQ5MjYtNDYxNi04MTZlLWVjMDMxMmRjYjg3YiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJhdXRvIiwNCiAgImhvc3QiOiAid29ya2VyLXF1aWV0LW1vcm5pbmctMDFmNS5tYWxpdG9iMzUxLldvUktFcnMuZGV2IiwNCiAgInBhdGgiOiAiL2phaGZramhhLmNmZDo0NDMvbGlua3dzIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIndvcmtlci1xdWlldC1tb3JuaW5nLTAxZjUubWFsaXRvYjM1MS5Xb1JLRXJzLmRldiIsDQogICJhbHBuIjogImh0dHAvMS4xIiwNCiAgImZwIjogInJhbmRvbWl6ZWQiDQp9
+{
+  "remarks": "w1_kfs",
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zula.ir",
+            "port": 80,
+            "users": [
+              {
+                "id": "e222a038-60d1-4543-84bb-2e53566e2c4e",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560",
+          "headers": {
+            "Host": "faLlING-SCENE-b0c8.jOREX88389.WorkERS.dEV"
+          }
+        },
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpNoDelay": true
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": 8,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": "reject"
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "fragment": {
+          "packets": "1-2",
+          "length": "5-10",
+          "interval": "3-5"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "id": "5627785659655799759",
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
+  }
+}
