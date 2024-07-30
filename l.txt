@@ -1,2 +1,1 @@
-vless://d85c313e-978b-49a1-a407-12d7ece65fa3@104.21.77.80:80?encryption=none&security=none&type=ws&host=SnOWy-TREe-f560.tARaC86595.workErs.DeV&path=%2FGsg7AyFrs0b3S4fQ%3Fed%3D2560#%F0%9F%92%A6%20BPB%20-%20IPv4_2%20%3A%2080
-
+vless://d85c313e-978b-49a1-a407-12d7ece65fa3@www.speedtest.net:2082?encryption=none&security=none&type=ws&host=snOwy-tReE-F560.taRAc86595.WoRkeRS.DEv&path=%2FjlbBGQ1xpU0zNI39%3Fed%3D2560#%F0%9F%92%A6%20BPB%20-%20Domain_2%20%3A%202082
