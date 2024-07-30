@@ -1,1 +1,1 @@
-vless://d85c313e-978b-49a1-a407-12d7ece65fa3@www.speedtest.net:2082?encryption=none&security=none&type=ws&host=snOwy-tReE-F560.taRAc86595.WoRkeRS.DEv&path=%2FjlbBGQ1xpU0zNI39%3Fed%3D2560#%F0%9F%92%A6%20BPB%20-%20Domain_2%20%3A%202082
+vless://d85c313e-978b-49a1-a407-12d7ece65fa3@snowy-tree-f560.tarac86595.workers.dev:80?encryption=none&security=none&type=ws&host=SNOWY-TREe-f560.taRAc86595.WORKeRS.Dev&path=%2FWixwlvEg62RV73ZN%3Fed%3D2560#%F0%9F%92%A6%20BPB%20-%20Domain_1%20%3A%2080
