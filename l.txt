@@ -1,1 +1,2 @@
-
+vless://ef39b7c6-6c95-4324-a841-85f234ee0891@172.67.146.171:443?encryption=none&security=tls&sni=biLLowiNg-bREAD-d974.PiPOCOW682.WoRKErS.DeV&alpn=h2%2Chttp%2F1.1&fp=randomized&allowInsecure=1&type=ws&host=billowing-bread-d974.pipocow682.workers.dev&path=%2FxNd58IxZcexArvOY%3Fed%3D2560#KFS
+vless://f85d7633-bf67-48d7-91df-b651f602f916@www.speedtest.net:443?encryption=none&security=tls&sni=ec2c13bf.kFS-b1.pAGES.DEV&alpn=h2%2Chttp%2F1.1&fp=randomized&allowInsecure=1&type=ws&host=ec2c13bf.kfs-b1.pages.dev&path=%2FAnaIe09mIvwhV3ll%3Fed%3D2560#KFS_b2
